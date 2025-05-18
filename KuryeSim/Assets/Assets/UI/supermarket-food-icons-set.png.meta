@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 9635dbfd94ab0624c881d27237be307a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1528
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f99c0d328744f429f1c1d3f6ad684a
+      internalID: 1910182327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1529
+        width: 374
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30ad12a79f9094aa0167b095dc02bc
+      internalID: 551265722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_3
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1528
+        width: 377
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727be38d75091848bad5a91ea1a918b
+      internalID: 2069393617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_4
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1528
+        width: 379
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e3d9075ff5b3e459f3e3576c088e62
+      internalID: -1191701703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1080
+        width: 379
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f547ad3475b3c64aa582bcb377754e4
+      internalID: -411710180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1080
+        width: 377
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc706b05dbf283847a7d094e02e12436
+      internalID: -107477975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_7
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1080
+        width: 376
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e91de3217a4a6641a13809a7614a9a3
+      internalID: 148183604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_8
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1080
+        width: 376
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec56e6fcf9129344687069c10e3a3b6a
+      internalID: -883398697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 632
+        width: 373
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbffd6ec6377f44aad02e69ccfcc29e
+      internalID: -1882468411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_13
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 631
+        width: 375
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b94002c064dbd44eae93a769864bbd0
+      internalID: 1505708420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_14
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 632
+        width: 373
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eca379d5a8da7248941fb8fd653b09d
+      internalID: -262079459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_15
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 629
+        width: 376
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a20c7d3dde5d14a8fba219ba1fcf7b
+      internalID: 2013963044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 183
+        width: 376
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a7f843f5030ef4ab94c7f6a09b2ca9
+      internalID: 433987566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_17
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 184
+        width: 370
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e523a4bebc9be154d8c21d134627c7f9
+      internalID: -1442543056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_18
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 189
+        width: 376
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d481489004ba11408bbb04b5ab5ab33
+      internalID: -1415002965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket-food-icons-set_19
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 186
+        width: 371
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a706766a4964b4e919c6d568bc9dd9
+      internalID: 61095516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7fc5b78aaad1eb9448aafd15f9f9b9d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      supermarket-food-icons-set_0: 1910182327
+      supermarket-food-icons-set_1: 1986146855
+      supermarket-food-icons-set_10: 5755202
+      supermarket-food-icons-set_11: -590459577
+      supermarket-food-icons-set_12: -1882468411
+      supermarket-food-icons-set_13: 1505708420
+      supermarket-food-icons-set_14: -262079459
+      supermarket-food-icons-set_15: 2013963044
+      supermarket-food-icons-set_16: 433987566
+      supermarket-food-icons-set_17: -1442543056
+      supermarket-food-icons-set_18: -1415002965
+      supermarket-food-icons-set_19: 61095516
+      supermarket-food-icons-set_2: 551265722
+      supermarket-food-icons-set_20: -301475703
+      supermarket-food-icons-set_21: -1905378434
+      supermarket-food-icons-set_22: 299068224
+      supermarket-food-icons-set_23: -1283709563
+      supermarket-food-icons-set_24: -1727474206
+      supermarket-food-icons-set_25: 1546009411
+      supermarket-food-icons-set_26: 308032114
+      supermarket-food-icons-set_27: 1107496050
+      supermarket-food-icons-set_28: 352408442
+      supermarket-food-icons-set_29: 90544625
+      supermarket-food-icons-set_3: 2069393617
+      supermarket-food-icons-set_30: -525016334
+      supermarket-food-icons-set_31: -1763252956
+      supermarket-food-icons-set_32: -1035595752
+      supermarket-food-icons-set_4: -1191701703
+      supermarket-food-icons-set_5: -411710180
+      supermarket-food-icons-set_6: -107477975
+      supermarket-food-icons-set_7: 148183604
+      supermarket-food-icons-set_8: -883398697
+      supermarket-food-icons-set_9: -217133912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

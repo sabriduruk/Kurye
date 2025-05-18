@@ -16,6 +16,7 @@ public class OrderManager : MonoBehaviour
     public TMP_Text rewardText;
     public TMP_Text durationText;
     public TMP_Text timeText;
+   
 
     [Header("Sipariş Verileri")]
     public OrderData[] allOrders;
@@ -65,4 +66,6 @@ public class OrderManager : MonoBehaviour
         orderListParent.gameObject.SetActive(true); // Sipariş listesi aç
         orderDetailPanel.SetActive(false); // Detay paneli kapanır
     }
+    
+    
 }
