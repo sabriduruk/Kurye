@@ -7,6 +7,7 @@ public class OrderManager : MonoBehaviour
     [Header("Sipariş Listesi")]
     public GameObject orderButtonPrefab;
     public Transform orderListParent;
+    public GameObject ordersHeader;
     
 
     [Header("Detay Paneli")]
@@ -38,6 +39,7 @@ public class OrderManager : MonoBehaviour
 
     void ShowOrderDetail(OrderData order)
     {
+        ordersHeader.SetActive(false); 
         orderListParent.gameObject.SetActive(false);
         if (orderDetailPanel == null)
         {
@@ -62,7 +64,8 @@ public class OrderManager : MonoBehaviour
     public void OpenPhoneOrders()
     {
         Debug.Log("Telefon butonuna basıldı.");
-
+        
+        ordersHeader.SetActive(true);
         orderListParent.gameObject.SetActive(true); // Sipariş listesi aç
         orderDetailPanel.SetActive(false); // Detay paneli kapanır
     }
