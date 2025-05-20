@@ -4,6 +4,16 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
+    
+    public List<ItemData> mainDishes = new();
+    public List<ItemData> sideDishes = new();
+    public List<ItemData> drinks = new();
+    
+    public Transform mainDishParent;
+    public Transform sideDishParent;
+    public Transform drinkParent;
+
+
 
     public Transform depotParent;
     public Transform bagParent;
@@ -11,7 +21,7 @@ public class InventoryManager : MonoBehaviour
 
     public List<ItemData> depotItems;
 
-    private Dictionary<string, InventorySlot> bagSlots = new();
+    public Dictionary<string, InventorySlot> bagSlots = new();
 
     void Awake()
     {
@@ -23,12 +33,27 @@ public class InventoryManager : MonoBehaviour
     {
         foreach (var item in depotItems)
         {
-            GameObject obj = Instantiate(itemSlotPrefab, depotParent);
+            GameObject obj = Instantiate(itemSlotPrefab); // paneli sonra belirteceğiz
             var slot = obj.GetComponent<InventorySlot>();
             slot.isDepot = true;
             slot.SetItem(item);
+
+            switch (item.category)
+            {
+                case ItemCategory.MainDish:
+                    obj.transform.SetParent(mainDishParent, false);
+                    break;
+                case ItemCategory.SideDish:
+                    obj.transform.SetParent(sideDishParent, false);
+                    break;
+                case ItemCategory.Drink:
+                    obj.transform.SetParent(drinkParent, false);
+                    break;
+            }
         }
     }
+
+
 
     public void AddToBag(ItemData item)
     {

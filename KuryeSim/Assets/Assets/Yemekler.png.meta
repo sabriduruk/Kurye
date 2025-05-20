@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 52f604977553f82498d2cd11703ec12d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228
+        width: 256
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fa3255126297b4bb652f514d4c0a97
+      internalID: -1153669552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_1"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1227
+        width: 256
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060a75c8367f3d94d885f219f50b5f55
+      internalID: -863806979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_2"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1227
+        width: 255
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d519b0354950246b3d66c3fe7a054b
+      internalID: 702739554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_3"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 256
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e4417576920f242ad882adc9447c6b
+      internalID: -1277218041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_4"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1228
+        width: 256
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426be42e42661544cbef66e5d4557100
+      internalID: 1558003537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_5"
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 959
+        width: 256
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1ed99bd1f6dd74e9a044d032e1140a
+      internalID: -561192605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_6"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 959
+        width: 256
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f1c5b2de90f44cb98b31b96cd747e
+      internalID: -2023053275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_7"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 256
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984cc16e3a762db44a7221b7514a40c9
+      internalID: -941779417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 256
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65145ab25ebf22940ace6a12c6dda27e
+      internalID: -230590401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_9"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 700
+        width: 256
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb93f6c93e7a5849bb2250b6ab220bc
+      internalID: 2040193954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_10"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 700
+        width: 256
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651df8e669543e546b1ed49a5b91098e
+      internalID: 848190643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_11"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 701
+        width: 256
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394a38b105153114e9d3a6e2e8ab7d4c
+      internalID: -1236173009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_12"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 413
+        width: 256
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f402aac1daa724dbc60de6b3b8bad4
+      internalID: -1544319718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_13"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 413
+        width: 256
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d2f3ba7a8a384cbcfe89dd259a013
+      internalID: 912659068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_14"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 413
+        width: 256
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b730139e877f74cb6f5427497bb1e2
+      internalID: -1066562562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_15"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 256
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49680814b654e4e4282a0a291efd4706
+      internalID: -291011892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_16"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 256
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af39fccd7f9d6154bb68f1120ba54a55
+      internalID: 1262493378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_17"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 256
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92cd3352e4e00c43b72932f58feab62
+      internalID: -671192834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_18"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 139
+        width: 256
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f90c7b997a86b49bb0be7e69972c39
+      internalID: -1513431691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_19"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 140
+        width: 256
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfec8dc09a14fb4bb5d3ae2e342b3bc
+      internalID: -373737237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c9ea2d3ddc0056f40baab753c239770d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_0": -1153669552
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_1": -863806979
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_10": 848190643
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_11": -1236173009
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_12": -1544319718
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_13": 912659068
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_14": -1066562562
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_15": -291011892
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_16": 1262493378
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_17": -671192834
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_18": -1513431691
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_19": -373737237
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_2": 702739554
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_3": -1277218041
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_4": 1558003537
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_5": -561192605
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_6": -2023053275
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_7": -941779417
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_8": -230590401
+      "20250520_2014_Renkli Karelerde G\u0131dalar_remix_01jvqay8zgergtz9c4kv251hnc_9": 2040193954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

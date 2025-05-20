@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: MeyveSuyu
   m_EditorClassIdentifier: 
   itemName: MeyveSuyu
-  icon: {fileID: -1191701703, guid: 9635dbfd94ab0624c881d27237be307a, type: 3}
+  icon: {fileID: 912659068, guid: 52f604977553f82498d2cd11703ec12d, type: 3}
+  category: 2

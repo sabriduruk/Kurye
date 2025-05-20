@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bbc3914878473f43bee01bdcfdd86d5, type: 3}
-  m_Name: Alkol
+  m_Name: Donut
   m_EditorClassIdentifier: 
-  itemName: Alkol
-  icon: {fileID: -262079459, guid: 9635dbfd94ab0624c881d27237be307a, type: 3}
+  itemName: Donut
+  icon: {fileID: 2040193954, guid: 52f604977553f82498d2cd11703ec12d, type: 3}
+  category: 1

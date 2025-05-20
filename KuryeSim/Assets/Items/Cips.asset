@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bbc3914878473f43bee01bdcfdd86d5, type: 3}
-  m_Name: "Bal\u0131k"
+  m_Name: Cips
   m_EditorClassIdentifier: 
-  itemName: "Bal\u0131k"
-  icon: {fileID: 148183604, guid: 9635dbfd94ab0624c881d27237be307a, type: 3}
+  itemName: Cips
+  icon: {fileID: -1277218041, guid: 52f604977553f82498d2cd11703ec12d, type: 3}
+  category: 0
