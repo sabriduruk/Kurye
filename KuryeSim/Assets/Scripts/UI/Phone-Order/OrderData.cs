@@ -6,7 +6,8 @@ public class OrderData
 {
     public string orderName;
     public List<OrderItem> items = new();
-    public int reward;
-    public int duration;
+    public float reward;
+    public float duration;
     public string deliveryTime;
+    public int distance;
 }

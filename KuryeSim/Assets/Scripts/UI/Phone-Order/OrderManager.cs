@@ -34,7 +34,8 @@ public class OrderManager : MonoBehaviour
 
 
    
-    public OrderData selectedOrder;
+    public static OrderData selectedOrder;
+
     public List<OrderData> currentOrders = new();
     
     void Start()
@@ -60,6 +61,7 @@ public class OrderManager : MonoBehaviour
     {
         selectedOrder = order;
         
+        
         ordersHeader.SetActive(false); 
         orderListParent.gameObject.SetActive(false);
         if (orderDetailPanel == null)
@@ -78,7 +80,7 @@ public class OrderManager : MonoBehaviour
         }
 
 
-        rewardText.text = order.reward + " TL";
+        rewardText.text = order.reward.ToString() + " TL";
         durationText.text = order.duration + " sn";
         timeText.text = order.deliveryTime;
     }
@@ -96,11 +98,16 @@ public class OrderManager : MonoBehaviour
     {
         OrderData order = new OrderData();
         order.orderName = "Sipariş #" + Random.Range(100, 999);
-        order.reward = Random.Range(50, 200);
-        order.duration = Random.Range(20, 60);
+        order.duration = Random.Range(20, 40);
         
         string[] times = { "Gece", "Gündüz" };
         order.deliveryTime = times[Random.Range(0, times.Length)];
+        if(order.deliveryTime == "Gece") {
+            order.reward = Random.Range(125, 300);
+        }
+        else {
+            order.reward = Random.Range(50, 200);
+        }
 
         // Ana Yemek
         var main = InventoryManager.Instance.mainDishes;
@@ -117,10 +124,15 @@ public class OrderManager : MonoBehaviour
         var drinkItem = drinks[Random.Range(0, drinks.Count)];
         order.items.Add(new OrderItem { item = drinkItem, count = 1 });
 
+        // uzaklık ayarlama kısmı burada aslında
+        order.distance = Mathf.RoundToInt(order.duration * 8.5f);
+        
+        
+
         return order;
     }
     
-    bool CheckBagAgainstOrder(OrderData order)
+    public static bool CheckBagAgainstOrder(OrderData order)
     {
         // Siparişteki ürün ve adet bilgilerini Dictionary yapalım
         Dictionary<string, int> orderItems = new();
@@ -152,6 +164,7 @@ public class OrderManager : MonoBehaviour
 
             if (bagCount != requiredCount)
             {
+
                 Debug.Log($"Ürün {itemName} adedi uyuşmuyor. Gerekli: {requiredCount}, Çanta: {bagCount}");
                 return false;
             }
@@ -166,10 +179,57 @@ public class OrderManager : MonoBehaviour
                 return false;
             }
         }
-        
-        
-
         return true; // Her şey uyuyorsa true döner
+    }
+
+    public static string CheckBagAgainstOrderWithString(OrderData order)
+    {
+        string str = "Çantadaki ürünler doğru teslim edildi";
+        // Siparişteki ürün ve adet bilgilerini Dictionary yapalım
+        Dictionary<string, int> orderItems = new();
+        foreach (var orderItem in order.items)
+        {
+            orderItems[orderItem.item.itemName] = orderItem.count;
+        }
+
+        // Çantadaki ürünleri oku
+        Dictionary<string, int> bagItems = new();
+        foreach (var slot in InventoryManager.Instance.bagSlots.Values)
+        {
+            string name = slot.itemData.itemName;
+            int count = slot.count;
+
+            if (bagItems.ContainsKey(name))
+                bagItems[name] += count;
+            else
+                bagItems[name] = count;
+        }
+
+        // Sipariş ile çantayı karşılaştır
+        foreach (var kvp in orderItems)
+        {
+            string itemName = kvp.Key;
+            int requiredCount = kvp.Value;
+
+            bagItems.TryGetValue(itemName, out int bagCount);
+
+            if (bagCount != requiredCount)
+            {
+                str = $"Ürün {itemName} adedi uyuşmuyor. Gerekli: {requiredCount}, Çanta: {bagCount}";
+                return str;
+            }
+        }
+
+        // Ayrıca çantada siparişte olmayan fazladan ürün varsa onu da kontrol et
+        foreach (var kvp in bagItems)
+        {
+            if (!orderItems.ContainsKey(kvp.Key))
+            {
+                str = $"Çantada siparişte olmayan ürün var: {kvp.Key}";
+                return str;
+            }
+        }
+        return str; // Her şey uyuyorsa true döner
     }
     
     public void ConfirmBag()
@@ -183,15 +243,15 @@ public class OrderManager : MonoBehaviour
         bool isOrderCorrect = CheckBagAgainstOrder(selectedOrder);
 
         // 🔒 Tüm UI’ı kapat ama ayrı canvas’taki tamamlandı paneli açık kalacak
-        phoneCanvas.SetActive(false);
-        ShowOrderCompletePanel(selectedOrder, isOrderCorrect);
+        // phoneCanvas.SetActive(false);
+        // ShowOrderCompletePanel(selectedOrder, isOrderCorrect);
     }
 
     
     public void ShowOrderCompletePanel(OrderData order, bool isCorrect)
     {
         orderCompleteCanvas.SetActive(true);
-
+        
         completeTitleText.text = "Sipariş Tamamlandı!";
         completeRewardText.text = "+" + order.reward + " TL";
         completeDurationText.text = order.duration + " saniyede teslim edildi";
@@ -242,7 +302,8 @@ public class OrderManager : MonoBehaviour
         if (selectedOrder == null || bagIsEmpty)
         {
             // OrderManager instance'ı varsa ona ulaş
-            var orderManager = FindObjectOfType<OrderManager>();
+            // var orderManager = FindObjectOfType<OrderManager>();
+            var orderManager = FindFirstObjectByType<OrderManager>();
             if (orderManager != null)
             {
                 orderManager.orderCompleteCanvas.SetActive(true);

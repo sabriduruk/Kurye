@@ -8,10 +8,17 @@ public class OrderTimer : MonoBehaviour
     private bool timerRunning = false;
 
     public TMP_Text timerText;
-    public GameObject depoPanel;
+    
+    [Header("panel")]
+    public GameObject orderPanel;
     public GameObject cantaPanel;
+    public GameObject depoPanel;
+    
     public GameObject canvasRoot; // Tüm UI’ları kapsayan üst canvas objesi
     public GameObject phoneIcon;
+    public GameObject InventoryUI;
+    public GameObject OrderComplateCanvas;
+
     public OrderManager orderManager; // Inspector'dan bağla
 
     void Update()
@@ -37,9 +44,18 @@ public class OrderTimer : MonoBehaviour
             }
 
             canvasRoot.SetActive(false); // Tüm canvas'ları kapat
+            
         }
     }
 
+    public void reactiveCanvas() 
+    {
+        canvasRoot.SetActive(true); // Tüm canvas'ları kapat
+        orderPanel.SetActive(false);
+        InventoryUI.SetActive(false);
+        OrderComplateCanvas.SetActive(false);
+        phoneIcon.SetActive(true);
+    }
     public void StartTimer()
     {
         timeRemaining = totalTime;

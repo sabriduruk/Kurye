@@ -53,8 +53,6 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-
-
     public void AddToBag(ItemData item)
     {
         if (bagSlots.TryGetValue(item.itemName, out InventorySlot slot))
